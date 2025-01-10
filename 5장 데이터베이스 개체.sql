@@ -79,7 +79,40 @@ DELIMITER $$
 	DELIMITER ;
  CALL proc_test4(‘대리’, @_count);
  SELECT CONCAT('_count : ', @_count)
+ 
+ #실습 5-11
+  DELIMITER $$
+	CREATE FUNCTION func_test1(_userid VARCHAR(10)) RETURNS INT
+	BEGIN
+	DECLARE total INT;
 
+	SELECT SUM(`sale`) INTO total FROM `Sale` WHERE `uid`=_userid;
 
+	RETURN total;
+	END $$
+	DELIMITER ;
+
+SELECT func_test1(‘a101’);
+DELIMITER $$
+	CREATE FUNCTION func_test2(_sale INT) RETURNS DOUBLE
+	BEGIN
+		DECLARE bonus DOUBLE;
+		
+        IF (_sale >= 100000) THEN
+			SET bonus = _sale * 0.1;
+		ELSE
+			SET bonus = _sale * 0.05;
+		END IF;
+
+	RETURN bonus;
+	END $$
+	DELIMITER ;
+SELECT
+	`uid`,
+	`year`,
+	`month`,
+	`sale`,
+	func_test2(`sale`) as `bonus`
+FROM `Sale`;
     
     
