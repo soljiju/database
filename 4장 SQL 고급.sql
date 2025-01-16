@@ -47,42 +47,42 @@ insert into `Department` values(106, '영업지원부', '051-512-1006');
 insert into `Department` values(107, '인사부', '051-512-1007');
 
 
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a101', 2018, 1, 98100);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a102', 2018, 1, 136000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a103', 2018, 1, 80100);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a104', 2018, 1, 78000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a105', 2018, 1, 93000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a101', 2018, 1, 98100);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a102', 2018, 1, 136000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a103', 2018, 1, 80100);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a104', 2018, 1, 78000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a105', 2018, 1, 93000);
 
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a101', 2018, 1, 23500);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a102', 2018, 1, 126000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a103', 2018, 1, 18500);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a105', 2018, 1, 19000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a106', 2018, 1, 53000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a101', 2018, 1, 23500);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a102', 2018, 1, 126000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a103', 2018, 1, 18500);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a105', 2018, 1, 19000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a106', 2018, 1, 53000);
 
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a101', 2019, 1, 24000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a102', 2019, 1, 109000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a103', 2019, 1, 101000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a104', 2019, 1, 53500);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a107', 2019, 1, 24000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a101', 2019, 1, 24000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a102', 2019, 1, 109000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a103', 2019, 1, 101000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a104', 2019, 1, 53500);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a107', 2019, 1, 24000);
 
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a102', 2019, 1, 160000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a103', 2019, 1, 101000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a104', 2019, 1, 43000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a105', 2019, 1, 24000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a106', 2019, 1, 109000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a102', 2019, 1, 160000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a103', 2019, 1, 101000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a104', 2019, 1, 43000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a105', 2019, 1, 24000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a106', 2019, 1, 109000);
 
 
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a102', 2020, 1, 201000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a104', 2020, 1, 63000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a105', 2020, 1, 74000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a106', 2020, 1, 122000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a107', 2020, 1, 111000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a102', 2020, 1, 201000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a104', 2020, 1, 63000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a105', 2020, 1, 74000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a106', 2020, 1, 122000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a107', 2020, 1, 111000);
 
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a102', 2020, 1, 120000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a103', 2020, 1, 93000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a104', 2020, 1, 84000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a105', 2020, 1, 180000);
-insert into `sales` (`uid`, `year`, `month`, `sales`) values ('a108', 2020, 1, 76000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a102', 2020, 1, 120000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a103', 2020, 1, 93000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a104', 2020, 1, 84000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a105', 2020, 1, 180000);
+insert into `sales` (`uid`, `year`, `month`, `sale`) values ('a108', 2020, 1, 76000);
 
 #실습 4-3
 select * from `Member` where `name` = '김유신';
@@ -149,6 +149,78 @@ select
  from 
 	`Sales` 
 where 
-	`year`=2020
+	`year`=2020;
  
+#실습 4-10
+select @@sql_mode;
 
+set session sql_mode = 'STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+ 
+ select * from `Sales`;
+ select * from `Sales` GROUP BY `uid`;
+ select * from `Sales` GROUP BY `year`;
+ select * from `Sales` GROUP BY `uid`, `year`;
+ select `uid`, COUNT(*) as `건수` from `Sales` GROUP BY `uid`;
+ select `uid`, SUM(`sale`) as `합계` from `Sales` GROUP BY `uid`;
+ 
+ #실습 4-11
+ select
+	`uid`, SUM(sale) as `합계`
+ from 
+	`sales`
+ GROUP BY `uid`
+ HAVING
+	`합계` >= 200000;
+    
+select `uid`, `year`, SUM(sale) AS `합계`
+from `Sales`
+WHERE `sale` >= 100000 
+GROUP BY `uid`, `year` 
+HAVING `합계` >=200000
+ORDER BY `합계` DESC;
+
+#실습 4-12
+CREATE TABLE `Sales2` LIKE `Sales`;
+INSERT INTO `Sales2` SELECT * FROM `Sales`;
+update `Sales2` set `year` = `year` + 3;
+select * from `Sales2`;
+
+select * from `Sales` UNION SELECT * FROM `Sales2`;
+select * from `Sales` WHERE `sale` >=100000
+union
+select * from `Sales2` WHERE `sale` >=100000;
+
+select * from `Sales`
+union
+select * from `Sales2`;
+
+select `uid`, `year`, sum(sale) AS `합계`
+from `Sales`
+group by `uid`, `year`
+union
+select `uid`, `year`, sum(sale) as `합계`
+from `Sales2`
+group by `uid`, `year`
+order by `year` asc, `합계` desc;
+
+#실습 4-13
+SELECT * FROM `Sales` INNER JOIN `Member` ON `Sales`. `uid` = `Member`. `uid`;
+
+select 
+	* 
+from `Member` as a 
+join `Dpartment` as b
+on a.dep = b.depNo;
+
+select 
+	* 
+from `Sales` as a
+join `Member` as b USING (`uid`);
+
+select
+	*
+from `Sales` as a 
+join `Member` as b on a.uid = b.uid
+join `Department` as c on b.dep = c.depNo;
+
+    
